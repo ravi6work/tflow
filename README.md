@@ -1,6 +1,6 @@
-*** Exploring neural networks with Tensorflow.js
+# Exploring neural networks with Tensorflow.js
 
-* Usage Notes:
+### Usage Notes:
 
 MNIST data sets are not included in the repository.
 (nb. data directory is ignored by this git repository)
@@ -23,7 +23,7 @@ epoch size are all in the fashion class constructor.
 Summary button provides the details of the network model details in the
 logger window.
 
-Some observations on Tensorflow.js
+### Some observations on Tensorflow.js
    -  Once a dataSet is created with a certain batch size with ".batch(n)" method, 
       batch size is not altered with subsequent updates with .batch method.
       Had to reload the data from files again.
